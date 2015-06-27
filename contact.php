@@ -1,5 +1,4 @@
 <?php 
-
 	if ($_SERVER["REQUEST_METHOD"] == "POST") {
 	$username      = $_POST['users_name'];
 	$user_email    = $_POST['users_email'];
@@ -8,9 +7,7 @@
 	$email_display = $email_display . "User: "  . $username   . "\n";
 	$email_display = $email_display . "Email: " . $user_email . "\n";
 	$email_display = $email_display . "Query: " . $user_info  . "\n";
-
 	header("Location: contact.php?status=thankyou");
-
 	}
 ?>
 

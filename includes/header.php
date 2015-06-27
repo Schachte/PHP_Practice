@@ -33,14 +33,14 @@
 
       width: 800px;
       height: auto;
-      margin-left: 150px;
+      display: inline;
 
     }
 
     #product_box {
         border: 3px solid black;
         width: 310px;
-        height: 400px;
+        height: 347px;
         margin-right: 50px;
         text-align: center;
         vertical-align: center;
